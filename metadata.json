@@ -1,0 +1,8 @@
+{
+  "name": "Bilingual Vocab Builder - English & Bengali",
+  "description": "Fullstack bilingual vocabulary builder with instant English-Bengali translation, Prisma & PostgreSQL sync, and interactive revision tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

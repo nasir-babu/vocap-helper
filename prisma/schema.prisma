@@ -1,0 +1,39 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model WordCard {
+  id        String   @id @default(cuid())
+  title     String?
+  status    String   @default("new") // "new", "revision", "done"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  words     Word[]
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model Word {
+  id          String    @id @default(cuid())
+  word        String
+  meaning     String
+  pos         String?
+  sentence    String?
+  sentenceBn  String?
+  mode        String    @default("en-to-bn")
+  status      String    @default("new") // "new", "revision", "done"
+  cardId      String?
+  card        WordCard? @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([cardId])
+  @@index([status])
+  @@index([createdAt])
+}

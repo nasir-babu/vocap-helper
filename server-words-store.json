@@ -1,0 +1,108 @@
+[
+  {
+    "id": "card_1793961496776_r8c06l",
+    "title": "Session 06/11/2026",
+    "status": "new",
+    "createdAt": "2026-11-06T10:38:15.743Z",
+    "updatedAt": "2026-11-06T10:38:15.743Z",
+    "words": [
+      {
+        "id": "w_1793961496777_0_qjno",
+        "word": "Work",
+        "meaning": "কাজ / পরিশ্রম",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "new",
+        "createdAt": "2026-11-06T10:38:15.743Z"
+      },
+      {
+        "id": "w_1793961496777_1_zib3",
+        "word": "Life",
+        "meaning": "জীবন",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "new",
+        "createdAt": "2026-11-06T10:38:15.743Z"
+      },
+      {
+        "id": "w_1793961496777_2_pr2m",
+        "word": "Perseverance",
+        "meaning": "অধ্যবসায় / অবিচল নিষ্ঠা",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "new",
+        "createdAt": "2026-11-06T10:38:15.743Z"
+      },
+      {
+        "id": "w_1793961496777_3_n4ee",
+        "word": "সৌন্দর্য",
+        "meaning": "Beauty / Splendor",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "bn-to-en",
+        "status": "new",
+        "createdAt": "2026-11-06T10:38:15.743Z"
+      }
+    ]
+  },
+  {
+    "id": "card_1793961388646_fgxmwd",
+    "title": "Session 06/11/2026",
+    "status": "revision",
+    "createdAt": "2026-11-06T10:36:28.377Z",
+    "updatedAt": "2026-11-06T10:38:51.238Z",
+    "words": [
+      {
+        "id": "w_1793961388646_0_nwt0",
+        "word": "Work",
+        "meaning": "কাজ / পরিশ্রম",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "revision",
+        "createdAt": "2026-11-06T10:36:28.377Z"
+      },
+      {
+        "id": "w_1793961388646_1_qwrn",
+        "word": "Life",
+        "meaning": "জীবন",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "revision",
+        "createdAt": "2026-11-06T10:36:28.377Z"
+      },
+      {
+        "id": "w_1793961388646_2_m174",
+        "word": "Perseverance",
+        "meaning": "অধ্যবসায় / অবিচল নিষ্ঠা",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "en-to-bn",
+        "status": "revision",
+        "createdAt": "2026-11-06T10:36:28.377Z"
+      },
+      {
+        "id": "w_1793961388646_3_dgq7",
+        "word": "সৌন্দর্য",
+        "meaning": "Beauty / Splendor",
+        "pos": null,
+        "sentence": null,
+        "sentenceBn": null,
+        "mode": "bn-to-en",
+        "status": "revision",
+        "createdAt": "2026-11-06T10:36:28.377Z"
+      }
+    ]
+  }
+]
