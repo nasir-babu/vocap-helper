@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "buildCommand": "bun run build",
+  "buildCommand": "prisma generate && bun run build",
   "outputDirectory": "dist",
   "installCommand": "bun install"
 }
